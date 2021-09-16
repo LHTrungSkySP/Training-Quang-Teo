@@ -99,7 +99,7 @@ class FilteredAccount extends Account{
         return (double)list.num/sum;
     }
 }
-public class Main {
+public class transaction {
     public static void main(String [] args) {
         Client KH=new Client("trung",10);
         Account TK=new Account(KH);
